@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> hngu official</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #62462D;
+            color: white;
+            width: 100%;
+            height: 50px;
+            margin: 0;
+            cursor: pointer;
+            float: center;
+
+        }
+        .Nlink {
+            text-decoration: none;
+            color: white;
+            margin-left: 10px;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 15px;
+
+        }
+
+        .Nlink:hover {
+            background-color: #4F3824;
+        }
+
+        .app {
+            margin-left: 100px;
+            cursor: pointer;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 10px;
+        }
+
+        .link {
+            position: relative;
+            left: 80px;
+            bottom: 30px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .inner {
+            display: flex;
+        }
+
+        /* link website */
+        .image {
+            margin-left: 13px;
+        }
+
+        .image:hover {
+            transform: scale(1.2);
+            transition: transform 0.3s ease;
+        }
+
+        .a {
+
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: #1877F2;
+            border-radius: 50%;
+            padding: 3px;
+
+        }
+
+        .b {
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: #CC0000;
+            border-radius: 50%;
+            padding: 3px;
+
+        }
+
+        .c {
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: #1A91DA;
+            border-radius: 50%;
+            padding: 3px;
+        }
+
+        .d {
+            border-radius: 50%;
+            border: 2px solid white;
+            background-color: #c13584;
+            border-radius: 50%;
+            padding: 3px;
+
+        }
+
+        /* background image */
+
+        .background-image {
+            width: 100%;
+            height: 350px;
+            /* jitna height chahiye */
+            overflow: hidden;
+            /* 👈 TOP overflow gayab */
+        }
+
+        .background-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* image crop hogi, stretch nahi */
+
+        }
+
+
+        .foter {
+            background-color: #7a1632;
+            height: 120px;
+            color: white;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .name {
+            background-color: transparent;
+            padding: 20px;
+            /* border-left:1px solid black; */
+            box-shadow: 0px 0px 1px black;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+
+        .name:hover {
+            background-color: #7a1632;
+            color: white;
+            transform: scale(1.1);
+            transition: transform 0.3s ease;
+        }
+
+        .end {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="hngu-logo.png" alt="hngu logo" width="400px" height="100px">
+
+        <span class="app">
+
+            <img src="play-store.png" width="150px" height="45px">
+            <br>
+            <img src="apple.jpg" width="150px" height="45px">
+
+        </span>
+        <div class="link">
+            <h5>: Follow Us On Social Media :</h5>
+            <img src="facebook.png" width="32px" height="32px" class="image a">
+            <img src="youtube.png" width="32px" height="32px" class="image b">
+            <img src="tweter.png" width="32px" height="32px" class="image c">
+            <img src="intragranme.png" width="32px" height="32px" class="image d">
+
+            <p> "Accredited by NAAC with 'B' Grade (CGPA 2.21)"</p>
+
+        </div>
+
+    </header>
+
+    <nav class="navbar">
+
+        <a href="" class="Nlink">HOME</a>
+        <a href="" class="Nlink">ABOUT</a>
+        <a href="" class="Nlink">ACADEMICS</a>
+        <a href="" class="Nlink">EXAMINATION</a>
+        <a href="" class="Nlink"> RESEARCH</a>
+        <a href="" class="Nlink">PUBLICATIONS</a>
+        <a href="" class="Nlink">DOWNLOADS</a>
+        <a href="" class="Nlink">RTI</a>
+        <a href="" class="Nlink">CAREER</a>
+        <a href="" class="Nlink">CONTACT</a>
+        <a href="" class="Nlink">ERP LOGIN</a>
+    </nav>
+
+    <div class="background-image">
+
+        <img src="back.jpg">
+
+    </div>
+    <br>
+
+    <footer class="foter">
+        <div class="name">
+            <h3>Explore HNGU</h3>
+            <p>study hard.play hard </p>
+        </div>
+        <div class="name">
+            <h3>Career development</h3>
+            <p>We prepare you to Wild woard</p>
+        </div>
+        <div class="name">
+            <h3>CENTERAL LIBRARY</h3>
+            <p>Discovery & invation</p>
+        </div>
+        <div class="name">
+            <h3>CoLLABORATION</h3>
+            <p>Letest campus news update</p>
+        </div>
+        <div class="name">
+            <h3>EVENTS</h3>
+            <P> Schedule of our activity</P>
+        </div>
+    </footer>
+
+    <div class="end">
+
+        <img src="first.jpg" height="150px" width="250px">
+        <img src="Achievement.jpg" height="200px" width="150px">
+        <img src="NAAC-icon.png" height="96.23px" width="96.73px">
+    </div>
+</body>
+</html>
